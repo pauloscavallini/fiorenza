@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 125px;
+    box-shadow: 0px 1px 5px #6c6c6c;
+}
+
+main {
+    padding-top: 1vh;
+}
+
+a {
+    transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+a:hover {
+    font-size: 14px;
+}
+
+/* primeira parte do header */
+.reminder {
+    background-color: #e8e4e4;
+    height: 25px;
+}
+
+.reminder p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(13px, 13px, 13px);
+    align-items: center;
+
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.reminder span {
+    font-weight: 600;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* segunda parte do header */
+.cabecalho {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho form {
+    width: 50%;
+    height: 30px;
+}
+
+.cabecalho h1 {
+    position: absolute;
+    left: 50px;
+}
+
+.cabecalho form input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #ededed;
+    padding-left: 10px;
+}
+
+/* terceira parte do header */
+.navegacao {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao a {
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 100;
+    color: rgb(63, 63, 63);
+}
+
+.navegacao a:hover {
+    color: #e71194;
+    font-size: 14px;
+}
+
+/* conteúdo do site */
+.banner {
+    margin-top: 25px;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    display: flex;
+}
+
+.banner img {
+    width: 90%;
+    height: 100%;
+}
+
+.inicial {
+    margin-top: 125px;
+}
+
+.content {
+    margin: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* produtos */
+.produtos {
+    margin: 25px;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+}
+
+.produto {
+    margin: 10px;
+    width: 160px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: -1px 3px 15px 0px rgba(191,191,191,0.75);
+    -webkit-box-shadow: -1px 3px 15px 0px rgba(191,191,191,0.75);
+    -moz-box-shadow: -1px 3px 15px 0px rgba(191,191,191,0.75);
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.produto p {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.produto:hover {
+    scale: 1.1;
+}
+
+.produto img {
+    margin-top: 10px;
+    width: 160px;
+    height: 160px;
+}
+
+.produto .nome {
+    font-size: 12px;
+}
+
+.produto .desc {
+    margin-top: 4px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.avaliacao {
+    color: rgb(255, 204, 0);
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+
+.quantidade {
+    color: black;
+    font-size: 10px;
+}
+
+.comprar {
+    margin-top: 10px;
+    
+    border-width: 1px;
+    border-color: #ff5c8c;
+    background-color: #ffffff;
+
+    outline: none;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+
+    transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.comprar:hover {
+    opacity: 100%;
+    background-color: #ff009d;
+    color: white;
+}
+
+/* rodapé */
+footer {
+    margin-top: 25px;
+    height: 300px;
+    background-color: #000;
+}
+
+footer a {
+    color: white;
+}
