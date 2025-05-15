@@ -210,11 +210,136 @@ a:hover {
 
 /* rodapé */
 footer {
-    margin-top: 25px;
-    height: 300px;
+    padding-top: 25px;
+    height: 450px;
     background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div {
+    margin: 10px;
+    
 }
 
 footer a {
     color: white;
+    font-size: 13px;
+}
+
+footer p {
+    color: white;
+}
+
+footer li {
+    margin-top: 10px;
+}
+
+.div-pagamento div {
+    margin-left: 0;
+}
+
+.sessao {
+    display: flex;
+}
+
+.titulo-rodape {
+    font-weight: 600;
+}
+
+.bandeiras div {
+    border-radius: 5px;
+    background: white;
+    padding: 0;
+    margin-right: 10px;
+    width: 50px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.redes div {
+    border-radius: 5px;
+    background: white;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.apps div {
+    border-radius: 5px;
+    background: white;
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: center;
+}
+
+/* bandeiras de cartão e pagamentos */
+.bandeiras .visa {
+    background-image: url('visa.webp');
+}
+
+.bandeiras .diners {
+    background-image: url('diners.webp');
+}
+
+.bandeiras .amex {
+    background-image: url('amex.webp');
+    filter: invert();
+    background-size: cover;
+}
+
+.bandeiras .hipercard {
+    background-image: url('hipercard.png');
+    background-size: 30px;
+}
+
+.bandeiras .elo {
+    background-image: url('elo.png');
+    background-size: 20px;
+}
+
+.bandeiras .mastercard {
+    background-image: url('mastercard.png');
+}
+
+.bandeiras .pix {
+    background-image: url('pix.png');
+}
+
+/* redes sociais */
+.redes .facebook {
+    background-image: url('facebook.png');
+    filter: invert();
+}
+
+.redes .instagram {
+    background-image: url('instagram.jpg');
+    background-size: 65px;
+    filter: invert();
+}
+
+.redes .twitter {
+    background-image: url('twitter.png');
+    background-size: 20px;
+}
+
+.redes .youtube {
+    background-image: url('youtube.png');
+    background-size: 50px;
+}
+
+/* apps */
+.apps .google-play {
+    background-image: url('googleplay.png');
+}
+
+.apps .app-store {
+    background-image: url('appstore.webp');
+    background-size: 120px;
 }
