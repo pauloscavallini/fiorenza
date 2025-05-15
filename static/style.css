@@ -281,65 +281,65 @@ footer li {
 
 /* bandeiras de cartão e pagamentos */
 .bandeiras .visa {
-    background-image: url('visa.webp');
+    background-image: url('../img/visa.webp');
 }
 
 .bandeiras .diners {
-    background-image: url('diners.webp');
+    background-image: url('../img/diners.webp');
 }
 
 .bandeiras .amex {
-    background-image: url('amex.webp');
+    background-image: url('../img/amex.webp');
     filter: invert();
     background-size: cover;
 }
 
 .bandeiras .hipercard {
-    background-image: url('hipercard.png');
+    background-image: url('../img/hipercard.png');
     background-size: 30px;
 }
 
 .bandeiras .elo {
-    background-image: url('elo.png');
+    background-image: url('../img/elo.png');
     background-size: 20px;
 }
 
 .bandeiras .mastercard {
-    background-image: url('mastercard.png');
+    background-image: url('../img/mastercard.png');
 }
 
 .bandeiras .pix {
-    background-image: url('pix.png');
+    background-image: url('../img/pix.png');
 }
 
 /* redes sociais */
 .redes .facebook {
-    background-image: url('facebook.png');
+    background-image: url('../img/facebook.png');
     filter: invert();
 }
 
 .redes .instagram {
-    background-image: url('instagram.jpg');
+    background-image: url('../img/instagram.jpg');
     background-size: 65px;
     filter: invert();
 }
 
 .redes .twitter {
-    background-image: url('twitter.png');
+    background-image: url('../img/twitter.png');
     background-size: 20px;
 }
 
 .redes .youtube {
-    background-image: url('youtube.png');
+    background-image: url('../img/youtube.png');
     background-size: 50px;
 }
 
 /* apps */
 .apps .google-play {
-    background-image: url('googleplay.png');
+    background-image: url('../img/googleplay.png');
 }
 
 .apps .app-store {
-    background-image: url('appstore.webp');
+    background-image: url('../img/appstore.webp');
     background-size: 120px;
 }
